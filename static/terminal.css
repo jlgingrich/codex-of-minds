@@ -1,0 +1,9 @@
+:root {
+    --background: #012310;
+    --foreground: #eceae5;
+    --accent: #00ffbf;
+}
+
+a.admin-login-link {
+    text-decoration: none;
+}

@@ -1,0 +1,15 @@
+{
+    "terminal.integrated.profiles.linux": {
+        "Nix Shell": {
+            "path": "nix-shell",
+            "args": [
+                "--pure",
+                "${workspaceFolder}/shell.nix"
+            ],
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "Nix Shell",
+    "markdownlint.config": {
+        "single-h1": false
+    },
+}
