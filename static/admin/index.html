@@ -6,16 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Content Manager</title>
-    <link rel="stylesheet" href="https://stra.studio/cms/dark.css" />
+    <link href="/admin/config.yml" type="text/yaml" rel="cms-config-url" />
 </head>
 
 <body>
     <!-- Include the script that builds the page and powers Decap CMS -->
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script src="https://unpkg.com/decap-cms@^3.4.0/dist/decap-cms.js"></script>
+
+    <!-- Decap CMS Dark Mode -->
+    <link rel="stylesheet" href="https://stra.studio/cms/dark.css">
+
+    <!-- CSS in preview panel -->
     <script>
         CMS.registerPreviewStyle("/admin/preview.css");
     </script>
-    <link rel="stylesheet" href="https://stra.studio/cms/dark.css">
+
+    <!-- Only showing body in preview panel -->
+    <script src="/utils/preview.js"></script>
 
 </body>
 

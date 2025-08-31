@@ -1,10 +1,14 @@
 :root {
-    --background: #1a170f;
+    --background: #012310;
     --foreground: #eceae5;
-    --accent: #eec35e;
+    --accent: #00ffbf;
     --font-size: 1rem;
     --line-height: 1.54em;
     --radius: 0
+}
+
+a.admin-login-link {
+    text-decoration: none;
 }
 
 html {
@@ -19,8 +23,6 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
     font-family: fira code, Monaco, Consolas, ubuntu mono, monospace;
     font-size: var(--font-size);
     line-height: var(--line-height);
@@ -74,114 +76,12 @@ a {
     color: var(--accent)
 }
 
-button {
-    position: relative;
-    font: inherit;
-    font-weight: 700;
-    text-decoration: none;
-    text-align: center;
-    background: 0 0;
-    color: var(--accent);
-    padding: 5px 18px;
-    border: 4px solid var(--accent);
-    border-radius: var(--radius);
-    transition: background .15s linear;
-    appearance: none;
-    cursor: pointer;
-    outline: none
-}
-
-button:hover {
-    background: color-mix(in srgb, var(--accent) 15%, transparent)
-}
-
-button:focus-visible,
-a:focus-visible {
-    outline: 1px solid var(--accent);
-    outline-offset: 2px
-}
-
-fieldset {
-    display: inline-block;
-    border: 2px solid var(--foreground);
-    border-radius: calc(var(--radius) * 1.6);
-    padding: 10px
-}
-
-fieldset *:first-child {
-    margin-top: 0
-}
-
-fieldset input,
-fieldset select,
-fieldset textarea,
-fieldset label,
-fieldset button {
-    margin-top: calc(var(--line-height) * .5);
-    width: 100%
-}
-
 label {
     display: inline-block
 }
 
 label input {
     margin-top: 0
-}
-
-input,
-textarea,
-select {
-    background: 0 0;
-    color: var(--foreground);
-    border: 1px solid var(--foreground);
-    border-radius: var(--radius);
-    padding: 10px;
-    font: inherit;
-    appearance: none
-}
-
-input[type=checkbox] {
-    width: auto
-}
-
-input:focus-visible,
-input:active,
-textarea:focus-visible,
-textarea:active,
-select:focus-visible,
-select:active {
-    border-color: var(--accent);
-    outline: 1px solid var(--accent);
-    outline-offset: 2px
-}
-
-input:active,
-textarea:active,
-select:active {
-    box-shadow: none
-}
-
-select {
-    background-image: linear-gradient(45deg, transparent 50%, var(--foreground) 50%), linear-gradient(135deg, var(--foreground) 50%, transparent 50%);
-    background-position: calc(100% - 20px), calc(100% - 1em);
-    background-size: 5px 5px, 5px 5px;
-    background-repeat: no-repeat;
-    padding-right: 40px
-}
-
-select option {
-    background: var(--background)
-}
-
-input[type=checkbox] {
-    vertical-align: middle;
-    padding: 10px;
-    box-shadow: inset 0 0 0 3px var(--background)
-}
-
-input[type=checkbox]:checked {
-    background: var(--accent)
 }
 
 img {
@@ -623,38 +523,4 @@ iframe[src*="youtube.com"] {
     text-decoration: none;
     margin-left: 10px;
     visibility: hidden
-}
-
-h1:hover .hanchor,
-h2:hover .hanchor,
-h3:hover .hanchor,
-h4:hover .hanchor,
-h5:hover .hanchor,
-h6:hover .hanchor {
-    visibility: visible
-}
-
-.footnotes {
-    color: color-mix(in srgb, var(--foreground) 50%, transparent)
-}
-
-.footnotes hr {
-    background: color-mix(in srgb, var(--foreground) 50%, transparent)
-}
-
-@media(max-width:684px) {
-    .post-cover {
-        padding: 10px;
-        border-width: 10px
-    }
-}
-
-:root {
-    --background: #012310;
-    --foreground: #eceae5;
-    --accent: #00ffbf;
-}
-
-a.admin-login-link {
-    text-decoration: none;
 }
