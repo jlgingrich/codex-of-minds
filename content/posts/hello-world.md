@@ -7,7 +7,6 @@ tags:
   - sample
   - tags
 ---
-
 # Hello World
 
-This is our first post on Codex of Minds!
+This is our first post on our new blog, Codex of Minds!
