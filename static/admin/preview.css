@@ -1,11 +1,10 @@
 :root {
-    --background: #012310;
+    --background: #1a170f;
     --foreground: #eceae5;
-    --accent: #00ffbf;
-}
-
-a.admin-login-link {
-    text-decoration: none;
+    --accent: #eec35e;
+    --font-size: 1rem;
+    --line-height: 1.54em;
+    --radius: 0
 }
 
 html {
@@ -648,4 +647,14 @@ h6:hover .hanchor {
         padding: 10px;
         border-width: 10px
     }
+}
+
+:root {
+    --background: #012310;
+    --foreground: #eceae5;
+    --accent: #00ffbf;
+}
+
+a.admin-login-link {
+    text-decoration: none;
 }
