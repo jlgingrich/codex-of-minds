@@ -16,3 +16,7 @@ Any theme at this website works, I just chose a cyberpunk looking one: <https://
 - [Demo Site](https://panr.github.io/hugo-theme-terminal-demo/)
 - [Demo Site Source](https://github.com/panr/hugo-theme-terminal-demo/)
 - [Theme Generator](https://panr.github.io/terminal-css/)
+
+### Decap CMS
+
+- [Documentation](https://decapcms.org/docs/intro/)
