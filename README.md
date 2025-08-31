@@ -20,3 +20,4 @@ Any theme at this website works, I just chose a cyberpunk looking one: <https://
 ### Decap CMS
 
 - [Documentation](https://decapcms.org/docs/intro/)
+- [Auth Proxy Worker](https://github.com/sterlingwes/decap-proxy)
