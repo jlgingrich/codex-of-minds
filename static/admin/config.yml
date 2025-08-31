@@ -13,6 +13,7 @@ backend:
     openAuthoring: '{{message}}'
 media_folder: "assets/images"
 public_folder: "images"
+publish_mode: editorial_workflow
 collections:
   - name: posts
     label: Posts
@@ -20,7 +21,6 @@ collections:
     create: true
     fields:
     - {label: "Title", name: "title", widget: "string"}
+    - {label: "Tags", name: "tags", widget: "list"}
     - {label: "Publish Date", name: "date", widget: "datetime"}
     - {label: "Body", name: "body", widget: "markdown"}
-    - {label: "Draft", name: "draft", widget: "boolean"}
-publish_mode: editorial_workflow
