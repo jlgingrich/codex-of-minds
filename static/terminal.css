@@ -1,7 +1,7 @@
 :root {
-    --background: #012310;
-    --foreground: #eceae5;
-    --accent: #00ffbf;
+    --background: #000000;
+    --foreground: #ffffff;
+    --accent: #284EE0;
 }
 
 a.admin-login-link {
