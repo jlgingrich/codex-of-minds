@@ -1,12 +1,10 @@
 ---
-title: Hello World
+title: My First Hello
 tags:
   - Introductions
   - FirstPost
 date: 2025-08-31T17:30:00.000-04:00
 ---
-# My First Hello! 
-
 Hello, out there in the void! My name is James, and I’m a technology professional who has an insatiable passion for discussing technology. I firmly believe that technology has the power to enhance our lives, making them more beautiful, simple, and meaningful. However, I also have a critical perspective on how technology has impacted people my age, particularly in my areas of interest, and its broader effects on the daily lives of individuals worldwide. I would call myself a technology optimist, with a heavy dose of cynicism and skepticism when new items start rolling out. 
 
 In my Codex of Minds, I aim to delve into and explain my unique perspectives on technology. While it’s true that the tech industry is filled with voices expressing expertise, I want to take a different approach. I want to share my knowledge and insights, but I won’t claim to be an expert. Instead, I view this as an opportunity for self-reflection and critical thinking.
