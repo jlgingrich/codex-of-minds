@@ -1,9 +1,9 @@
-+++
-date = '2025-08-31T01:34:23-04:00'
-draft = true
-title = 'Lipsum'
-author = 'Liam Gingrich'
-+++
+---
+date: '2025-08-31T01:34:23-04:00'
+draft: true
+title: 'Lipsum'
+author: 'Liam Gingrich'
+---
 
 # Lipsum
 
