@@ -2,7 +2,7 @@ backend:
   name: github
   branch: main
   repo: jlgingrich/codex-of-minds
-  base_url: decap.codexofminds.com
+  base_url: https://decap.mydomain.com
   commit_messages:
     create: Create {{collection}} “{{slug}}”
     update: Update {{collection}} “{{slug}}”
