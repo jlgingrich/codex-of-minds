@@ -16,7 +16,7 @@ params:
     showMenuItems: 3
     showLanguageSelector: false
     fullWidthTheme: false
-    centerTheme: false
+    centerTheme: true
     autoCover: true
     showLastUpdated: true
     enableGitInfo: true
@@ -25,7 +25,7 @@ languages:
         languageName: English
         title: Codex of Minds
         params:
-            subtitle: A simple, retro theme for Hugo
+            subtitle: An exploration of technology and its impact on our lives
             owner: ""
             keywords: ""
             copyright: ""

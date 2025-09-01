@@ -1,6 +1,5 @@
 ---
-author: "Radek"
-framed: true
+framed: false
 ---
 
 ![Terminal.css Preview](/og-image.png)
