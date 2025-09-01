@@ -1,5 +1,6 @@
 ---
 title: My First Hello
+author: James Sanchioli
 tags:
   - Introductions
   - FirstPost
