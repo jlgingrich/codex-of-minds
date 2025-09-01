@@ -1,5 +1,6 @@
 ---
 title: Decap CMS Except No Netlify
+author: Liam Gingrich
 tags:
   - test
   - one
