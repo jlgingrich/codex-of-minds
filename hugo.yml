@@ -51,3 +51,6 @@ languages:
                   identifier: authors
                   weight: 2
                   url: /authors
+outputFormats:
+    rss:
+        baseName: feed
