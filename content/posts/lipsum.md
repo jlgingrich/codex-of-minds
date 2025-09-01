@@ -1,7 +1,9 @@
 ---
-date: '2025-08-31T01:34:23-04:00'
-title: 'Lipsum'
-author: 'Liam Gingrich'
+title: Lipsum
+author: Liam Gingrich
+tags:
+  - test
+date: 2025-08-31T01:34:23-04:00
 ---
 
 # Lipsum
