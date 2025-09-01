@@ -1,0 +1,11 @@
+.css-a8jran-container,
+.css-flwblh-container {
+    color: inherit;
+    background-color: var(--widgets-bg-color);
+    border: 1px solid var(--widgets-border-color);
+}
+
+button.css-zwje8v-LoginButton-button-button-default-default-gray-gray-disabled-disabled.exus10f1 {
+    background-color: var(--btn-gray-default-bg);
+    color: var(--btn-gray-disabled-text);
+}
