@@ -14,7 +14,7 @@ The futuristic Hugo theme we're currently using.
 
 ## Decap CMS
 
-[Decap CMS](<https://decapcms.org/docs/intro/>) is a static-site content management system that operates by modifying the underlying GitHub repository via a dashboard embedded on the site. Authentication is handled via a GitHub OAuth .
+[Decap CMS](https://decapcms.org/docs/intro/) is a static-site content management system that operates by modifying the underlying GitHub repository via a dashboard embedded on the site. Authentication is handled via a GitHub OAuth .
 
 ### OAuth2 Proxy for GitHub
 

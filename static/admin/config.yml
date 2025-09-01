@@ -1,26 +1,64 @@
 backend:
-  name: github
-  branch: main
-  repo: jlgingrich/codex-of-minds
-  base_url: https://decap.codexofminds.com
-  squash_merges: true
-  commit_messages:
-    create: Create {{collection}} “{{slug}}”
-    update: Update {{collection}} “{{slug}}”
-    delete: Delete {{collection}} “{{slug}}”
-    uploadMedia: Upload “{{path}}”
-    deleteMedia: Delete “{{path}}”
-    openAuthoring: '{{message}}'
+    name: github
+    branch: main
+    repo: jlgingrich/codex-of-minds
+    base_url: https://decap.codexofminds.com
+    squash_merges: true
+    commit_messages:
+        create: Create {{collection}} “{{slug}}”
+        update: Update {{collection}} “{{slug}}”
+        delete: Delete {{collection}} “{{slug}}”
+        uploadMedia: Upload “{{path}}”
+        deleteMedia: Delete “{{path}}”
+        openAuthoring: "{{message}}"
 media_folder: "assets/images"
 public_folder: "images"
 publish_mode: editorial_workflow
 collections:
-  - name: posts
-    label: Posts
-    folder: "content/posts"
-    create: true
-    fields:
-    - {label: "Title", name: "title", widget: "string"}
-    - {label: "Tags", name: "tags", widget: "list"}
-    - {label: "Publish Date", name: "date", widget: "datetime"}
-    - {label: "Body", name: "body", widget: "markdown"}
+    - name: posts
+      label: Posts
+      folder: "content/posts"
+      create: true
+      fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Author"
+            name: "author"
+            widget: relation
+            collection: authors
+            search_fields: "title"
+            value_field: "name"
+          - label: "Tags"
+            name: "tags"
+            widget: "list"
+          - label: "Publish Date"
+            name: "date"
+            widget: "datetime"
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
+    - name: authors
+      label: Authors
+      folder: "content/authors"
+      create: true
+      fields:
+          - label: "Name"
+            name: "title"
+            widget: "string"
+          - label: "Bio"
+            name: "body"
+            widget: "markdown"
+    - name: pages
+      label: Pages
+      files:
+          - name: home
+            label: Home
+            file: content/_index.md
+            fields:
+                - label: "Framed"
+                  name: framed
+                  widget: boolean
+                - label: "Body"
+                  name: body
+                  widget: markdown
