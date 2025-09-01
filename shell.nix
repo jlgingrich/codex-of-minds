@@ -5,6 +5,7 @@
         go
         hugo
         toybox
+        nodejs_24 # For Wrangler
     ];
 
     # Configure custom prompt

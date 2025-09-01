@@ -1,0 +1,8 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "decap-proxy"
+main = "src/index.ts"
+compatibility_date = "2024-04-19"
+compatibility_flags = ["nodejs_compat"]
+
+workers_dev = false
+route = { pattern = "decap.codexofminds.com", zone_name = "codexofminds.com", custom_domain = true }
