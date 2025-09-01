@@ -13,3 +13,7 @@ button.css-zwje8v-LoginButton-button-button-default-default-gray-gray-disabled-d
 input[type="datetime-local"] {
     background-color: inherit
 }
+
+.css-1xo0h32-DateTimeControl {
+    background-color: var(--widgets-bg-color);
+}
