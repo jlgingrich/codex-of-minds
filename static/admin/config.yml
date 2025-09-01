@@ -12,53 +12,55 @@ backend:
         deleteMedia: Delete “{{path}}”
         openAuthoring: "{{message}}"
 media_folder: "assets/images"
-public_folder: "images"
+public_folder: images
 publish_mode: editorial_workflow
+editor:
+    preview: false
 collections:
     - name: posts
       label: Posts
       folder: "content/posts"
       create: true
       fields:
-          - label: "Title"
-            name: "title"
-            widget: "string"
-          - label: "Author"
-            name: "author"
+          - label: Title
+            name: title
+            widget: string
+          - label: Author
+            name: author
             widget: relation
             collection: authors
-            search_fields: ["title"]
-            value_field: "name"
-          - label: "Tags"
-            name: "tags"
-            widget: "list"
+            search_fields: [title]
+            value_field: title
+          - label: Tags
+            name: tags
+            widget: list
           - label: "Publish Date"
-            name: "date"
-            widget: "datetime"
-          - label: "Body"
-            name: "body"
-            widget: "markdown"
+            name: date
+            widget: datetime
+          - label: Body
+            name: body
+            widget: markdown
     - name: authors
       label: Authors
       folder: "content/authors"
       create: true
       fields:
-          - label: "Name"
-            name: "title"
-            widget: "string"
-          - label: "Bio"
-            name: "body"
-            widget: "markdown"
+          - label: Name
+            name: title
+            widget: string
+          - label: Bio
+            name: body
+            widget: markdown
     - name: pages
-      label: Pages
+      label: Custom Pages
       files:
           - name: home
             label: Home
             file: content/_index.md
             fields:
-                - label: "Framed"
+                - label: Framed
                   name: framed
                   widget: boolean
-                - label: "Body"
+                - label: Body
                   name: body
                   widget: markdown
