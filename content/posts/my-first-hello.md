@@ -3,7 +3,7 @@ title: My First Hello
 tags:
   - Introductions
   - FirstPost
-date: 2025-08-31T18:00:00.000-04:00
+date: 2025-09-01T12:00:00.000-04:00
 ---
 Hello, out there in the void! My name is James, and I'm a technology professional with a passion for discussing tech. I believe technology has the power to enhance our lives and that its hardware and services can be beautiful, simple, and meaningful. However, I also have a critical perspective on its impact on the world. I'd call myself a technology optimist with a heavy dose of cynicism and skepticism when new items start rolling out.
 
