@@ -10,6 +10,6 @@ button.css-zwje8v-LoginButton-button-button-default-default-gray-gray-disabled-d
     color: var(--primary-text-color);
 }
 
-input[type=datetime-local] {
+input[type="datetime-local"] {
     background-color: inherit
 }
