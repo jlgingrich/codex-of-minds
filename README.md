@@ -6,7 +6,7 @@
 
 ## Terminal Theme
 
-The futuristic Hugo theme we're currently using.
+The retrofuturistic Hugo theme we're currently using [a fork](https://github.com/jlgingrich/hugo-theme-terminal) of.
 
 - [README](https://github.com/panr/hugo-theme-terminal?tab=readme-ov-file)
 - [Theme demo site](https://panr.github.io/hugo-theme-terminal-demo/) ([Source](https://github.com/panr/hugo-theme-terminal-demo/))
