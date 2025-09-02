@@ -1,6 +1,7 @@
 baseURL: https://codexofminds.com/
 languageCode: en-us
 title: Codex of Minds
+theme: terminal
 pagination:
     pagerSize: 5
 page:
