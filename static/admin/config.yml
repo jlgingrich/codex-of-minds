@@ -11,7 +11,7 @@ backend:
         uploadMedia: Upload “{{path}}”
         deleteMedia: Delete “{{path}}”
         openAuthoring: "{{message}}"
-media_folder: "assets/images"
+media_folder: "static/images"
 public_folder: images
 publish_mode: editorial_workflow
 editor:
@@ -31,6 +31,12 @@ collections:
             collection: authors
             search_fields: [title]
             value_field: title
+          - label: Cover
+            name: cover
+            widget: image
+            media_library:
+            config:
+                multiple: false
           - label: Tags
             name: tags
             widget: list
