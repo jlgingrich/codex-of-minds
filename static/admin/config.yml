@@ -54,6 +54,12 @@ collections:
           - label: Name
             name: title
             widget: string
+          - label: Cover
+            name: cover
+            widget: image
+            media_library:
+                config:
+                    multiple: false
           - label: Bio
             name: body
             widget: markdown

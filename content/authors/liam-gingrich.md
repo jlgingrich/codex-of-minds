@@ -1,5 +1,6 @@
 ---
 title: "Liam Gingrich"
+cover: images/tv.png
 ---
 
 ## Hi there
