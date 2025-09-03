@@ -35,8 +35,8 @@ collections:
             name: cover
             widget: image
             media_library:
-            config:
-                multiple: false
+                config:
+                    multiple: false
           - label: Tags
             name: tags
             widget: list
