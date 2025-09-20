@@ -58,7 +58,7 @@ jobs:
                     --baseURL "${{ steps.pages.outputs.base_url }}/"
             - name: Set up Decap CMS config for Prod
               run: |
-                  cp /admin/config.prod.yml /admin/config.yml
+                  cp ./public/admin/config.prod.yml ./public/admin/config.yml
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v3
               with:
