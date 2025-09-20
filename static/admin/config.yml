@@ -1,16 +1,8 @@
+# Dev Decap CMS config
+local_backend: true
+
 backend:
-    name: github
-    branch: main
-    repo: jlgingrich/codex-of-minds
-    base_url: https://decap.codexofminds.com
-    squash_merges: true
-    commit_messages:
-        create: Create {{collection}} “{{slug}}”
-        update: Update {{collection}} “{{slug}}”
-        delete: Delete {{collection}} “{{slug}}”
-        uploadMedia: Upload “{{path}}”
-        deleteMedia: Delete “{{path}}”
-        openAuthoring: "{{message}}"
+    name: git-gateway
 media_folder: "static/images"
 public_folder: images
 publish_mode: editorial_workflow
@@ -37,6 +29,7 @@ collections:
             media_library:
                 config:
                     multiple: false
+            required: false
           - label: Tags
             name: tags
             widget: list
@@ -60,6 +53,9 @@ collections:
             media_library:
                 config:
                     multiple: false
+          - label: Email
+            name: email
+            widget: string
           - label: Bio
             name: body
             widget: markdown
