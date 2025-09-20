@@ -14,4 +14,15 @@
         "first-line-h1": false
     },
     "nixEnvSelector.nixFile": "${workspaceFolder}/shell.nix",
+    "spellchecker.ignoreWordsList": [
+        "Meshtastic",
+        "hyperfixated",
+        "tech's",
+        "Decap",
+        "GitHub",
+        "TTRPG",
+        "blog"
+    ],
+    "liveServer.settings.multiRootWorkspaceName": "",
+    "liveServer.settings.root": "/public",
 }
