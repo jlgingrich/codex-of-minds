@@ -1,11 +1,12 @@
 ---
-title: Hello world!
+title: Hello World!
 author: Liam Gingrich
 tags:
-  - test
-date: 2025-08-31T01:34:23-04:00
-cover: images/tv.png
+  - first-post
+date: 2025-09-20T09:42:00.000-04:00
 ---
-# Hello World
+```fsharp
+printfn "hello_world"
+```
 
-This is our first post on our new blog, Codex of Minds!
+Welcome to our little corner of the cloud!

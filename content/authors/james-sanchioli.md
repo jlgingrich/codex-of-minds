@@ -1,6 +1,7 @@
 ---
 title: James Sanchioli
-cover: images/img_8156.jpeg
+cover: images/2295-omniscience.jpg
+email: james@codexofminds.com
 ---
 Hey there! My name is James, and I'm a technology professional with an insatiable passion for discussing tech. I believe technology has the power to enhance our lives and that its hardware and services can be beautiful, simple, and meaningful. However, I also have a critical perspective on its impact on the world. I'd call myself a technology optimist with a heavy dose of cynicism and skepticism when new items start rolling out.
 
